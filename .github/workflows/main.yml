@@ -4,13 +4,12 @@ name: MakeRSS2Gitee
 # on:
 #   schedule:
 #     - cron: '45 07 * * *'
-
 on:
   push:
     branches:
       - main
   schedule:
-    - cron: '45 02 * * *'
+    - cron: '45 03 * * *'
 
 # 一个workflow由执行的一项或多项job
 jobs:
