@@ -74,7 +74,7 @@ jobs:
         #不同仓库名进行映射
         mappings: "MakeRss=>make-rss"
         #git超时设置，超时后会自动重试git操作
-        timeout: '600s'           
+        timeout: '650s'           
     #推送仓库到Gitee另外一种实现  
     # - name: push2giteeother
     #   #需要用到wearerequired/git-mirror-action 文档:https://github.com/wearerequired/git-mirror-action
