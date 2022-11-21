@@ -1,0 +1,5 @@
+beautifulsoup4==4.11.1
+feedparser==6.0.8
+googletrans==4.0.0rc1
+PyRSS2Gen==1.1
+requests==2.26.0

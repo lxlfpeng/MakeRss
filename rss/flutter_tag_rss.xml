@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Flutter</title><link>https://github.com/flutter/flutter</link><description>Flutter发布版本</description><lastBuildDate>Mon, 21 Nov 2022 15:21:06 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>3.6.0-5.0.pre</title><link>/flutter/flutter/releases/tag/3.6.0-5.0.pre</link><description>&lt;div class="flex-auto min-width-0"&gt;
+&lt;div class="commit js-details-container Details"&gt;
+&lt;div class="d-flex"&gt;
+&lt;div class="d-flex inline pr-2 pb-1 col-12"&gt;
+&lt;h2 class="f4 d-inline" data-view-component="true"&gt;&lt;a class="Link--primary" data-view-component="true" href="/flutter/flutter/releases/tag/3.6.0-5.0.pre"&gt;3.6.0-5.0.pre&lt;/a&gt;&lt;/h2&gt;
+&lt;span class="hidden-text-expander inline"&gt;
+&lt;div class="Button-withTooltip" data-view-component="true"&gt;
+&lt;button aria-expanded="false" class="Button Button--iconOnly Button--invisible Button--medium js-details-target" data-view-component="true" id="toggle-commit-3.6.0-5.0.pre" type="button"&gt; &lt;svg aria-hidden="true" class="octicon octicon-ellipsis Button-visual" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M0 5.75C0 4.784.784 4 1.75 4h12.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0114.25 12H1.75A1.75 1.75 0 010 10.25v-4.5zM4 7a1 1 0 100 2 1 1 0 000-2zm3 1a1 1 0 112 0 1 1 0 01-2 0zm5-1a1 1 0 100 2 1 1 0 000-2z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/button&gt; &lt;tool-tip class="sr-only position-absolute" data-direction="s" data-type="label" data-view-component="true" for="toggle-commit-3.6.0-5.0.pre"&gt;Toggle commit message&lt;/tool-tip&gt;
+&lt;/div&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="d-flex inline float-right"&gt;
+&lt;details class="dropdown dropdown-signed-commit details-reset details-overlay js-dropdown-details d-inline-block ml-1"&gt;
+&lt;summary class="signed-commit-badge signed-commit-badge-medium verified" title="Commit signature"&gt;
+          Verified
+      &lt;/summary&gt;
+&lt;div class="anim-scale-in" style="position: relative; z-index: 200;"&gt;
+&lt;div class="dropdown-menu dropdown-menu-sw py-0 color-fg-default text-left"&gt;
+&lt;div class="p-3 signed-commit-header d-flex"&gt;
+&lt;div class="pr-1"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-verified mr-2" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="flex-1"&gt;
+                  This commit was created on GitHub.com and signed with GitHub’s &lt;strong class="signed-commit-verified-label"&gt;verified signature&lt;/strong&gt;.
+            &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="signed-commit-footer p-3 rounded-bottom-2"&gt;
+&lt;span class="d-block"&gt;GPG key ID: &lt;span class="color-fg-muted"&gt;4AEE18F83AFDEB23&lt;/span&gt;&lt;/span&gt;
+&lt;div class="my-1"&gt;
+&lt;/div&gt;
+&lt;a href="https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits"&gt;Learn about vigilant mode&lt;/a&gt;.
+          &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="commit-desc" data-test-selector="commit-message-expander"&gt;
+&lt;pre class="text-small color-fg-muted"&gt;InkResponse highlights can be updated (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/115635/hovercard" data-id="1454764162" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/115635" href="https://github.com/flutter/flutter/pull/115635"&gt;#115635&lt;/a&gt;)
+      Co-authored-by: Bruno Leroux &amp;lt;bruno.leroux@gmail.com&amp;gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul class="list-style-none f6"&gt;
+&lt;li class="d-inline-block mt-1 mr-2 color-fg-muted"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-clock" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;relative-time class="no-wrap" datetime="2022-11-18T15:14:53Z"&gt;Nov 18, 2022&lt;/relative-time&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2 text-mono"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/commit/87cb150c2062d770dae00306d17f07bd79e4c265"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-git-commit" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        87cb150
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-5.0.pre.zip" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        zip
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-5.0.pre.tar.gz" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        tar.gz
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><pubDate>2022-11-18T15:14:53Z</pubDate></item><item><title>3.6.0-4.0.pre</title><link>/flutter/flutter/releases/tag/3.6.0-4.0.pre</link><description>&lt;div class="flex-auto min-width-0"&gt;
+&lt;div class="commit js-details-container Details"&gt;
+&lt;div class="d-flex"&gt;
+&lt;div class="d-flex inline pr-2 pb-1 col-12"&gt;
+&lt;h2 class="f4 d-inline" data-view-component="true"&gt;&lt;a class="Link--primary" data-view-component="true" href="/flutter/flutter/releases/tag/3.6.0-4.0.pre"&gt;3.6.0-4.0.pre&lt;/a&gt;&lt;/h2&gt;
+&lt;span class="hidden-text-expander inline"&gt;
+&lt;div class="Button-withTooltip" data-view-component="true"&gt;
+&lt;button aria-expanded="false" class="Button Button--iconOnly Button--invisible Button--medium js-details-target" data-view-component="true" id="toggle-commit-3.6.0-4.0.pre" type="button"&gt; &lt;svg aria-hidden="true" class="octicon octicon-ellipsis Button-visual" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M0 5.75C0 4.784.784 4 1.75 4h12.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0114.25 12H1.75A1.75 1.75 0 010 10.25v-4.5zM4 7a1 1 0 100 2 1 1 0 000-2zm3 1a1 1 0 112 0 1 1 0 01-2 0zm5-1a1 1 0 100 2 1 1 0 000-2z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/button&gt; &lt;tool-tip class="sr-only position-absolute" data-direction="s" data-type="label" data-view-component="true" for="toggle-commit-3.6.0-4.0.pre"&gt;Toggle commit message&lt;/tool-tip&gt;
+&lt;/div&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="d-flex inline float-right"&gt;
+&lt;details class="dropdown dropdown-signed-commit details-reset details-overlay js-dropdown-details d-inline-block ml-1"&gt;
+&lt;summary class="signed-commit-badge signed-commit-badge-medium verified" title="Commit signature"&gt;
+          Verified
+      &lt;/summary&gt;
+&lt;div class="anim-scale-in" style="position: relative; z-index: 200;"&gt;
+&lt;div class="dropdown-menu dropdown-menu-sw py-0 color-fg-default text-left"&gt;
+&lt;div class="p-3 signed-commit-header d-flex"&gt;
+&lt;div class="pr-1"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-verified mr-2" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="flex-1"&gt;
+                  This commit was created on GitHub.com and signed with GitHub’s &lt;strong class="signed-commit-verified-label"&gt;verified signature&lt;/strong&gt;.
+            &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="signed-commit-footer p-3 rounded-bottom-2"&gt;
+&lt;span class="d-block"&gt;GPG key ID: &lt;span class="color-fg-muted"&gt;4AEE18F83AFDEB23&lt;/span&gt;&lt;/span&gt;
+&lt;div class="my-1"&gt;
+&lt;/div&gt;
+&lt;a href="https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits"&gt;Learn about vigilant mode&lt;/a&gt;.
+          &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="commit-desc" data-test-selector="commit-message-expander"&gt;
+&lt;pre class="text-small color-fg-muted"&gt;Revert "Added Badge.count constructor (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/115297/hovercard" data-id="1448548345" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/115297" href="https://github.com/flutter/flutter/pull/115297"&gt;#115297&lt;/a&gt;)" (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/115564/hovercard" data-id="1453596146" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/115564" href="https://github.com/flutter/flutter/pull/115564"&gt;#115564&lt;/a&gt;)
+      This reverts commit &lt;a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/flutter/flutter/commit/e9622ce93a45b6e1e5a45c7729de4fc41381dc0b/hovercard" href="https://github.com/flutter/flutter/commit/e9622ce93a45b6e1e5a45c7729de4fc41381dc0b"&gt;&lt;tt&gt;e9622ce&lt;/tt&gt;&lt;/a&gt;.
+
+Landing before presubmits have completed to unblock the build.&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul class="list-style-none f6"&gt;
+&lt;li class="d-inline-block mt-1 mr-2 color-fg-muted"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-clock" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;relative-time class="no-wrap" datetime="2022-11-17T16:06:24Z"&gt;Nov 17, 2022&lt;/relative-time&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2 text-mono"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/commit/537f89ca0ef14aeb21f4f55149d72f227abb5017"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-git-commit" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        537f89c
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-4.0.pre.zip" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        zip
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-4.0.pre.tar.gz" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        tar.gz
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><pubDate>2022-11-17T16:06:24Z</pubDate></item><item><title>3.6.0-0.1.pre</title><link>/flutter/flutter/releases/tag/3.6.0-0.1.pre</link><description>&lt;div class="flex-auto min-width-0"&gt;
+&lt;div class="commit js-details-container Details"&gt;
+&lt;div class="d-flex"&gt;
+&lt;div class="d-flex inline pr-2 pb-1 col-12"&gt;
+&lt;h2 class="f4 d-inline" data-view-component="true"&gt;&lt;a class="Link--primary" data-view-component="true" href="/flutter/flutter/releases/tag/3.6.0-0.1.pre"&gt;3.6.0-0.1.pre&lt;/a&gt;&lt;/h2&gt;
+&lt;span class="hidden-text-expander inline"&gt;
+&lt;div class="Button-withTooltip" data-view-component="true"&gt;
+&lt;button aria-expanded="false" class="Button Button--iconOnly Button--invisible Button--medium js-details-target" data-view-component="true" id="toggle-commit-3.6.0-0.1.pre" type="button"&gt; &lt;svg aria-hidden="true" class="octicon octicon-ellipsis Button-visual" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M0 5.75C0 4.784.784 4 1.75 4h12.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0114.25 12H1.75A1.75 1.75 0 010 10.25v-4.5zM4 7a1 1 0 100 2 1 1 0 000-2zm3 1a1 1 0 112 0 1 1 0 01-2 0zm5-1a1 1 0 100 2 1 1 0 000-2z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/button&gt; &lt;tool-tip class="sr-only position-absolute" data-direction="s" data-type="label" data-view-component="true" for="toggle-commit-3.6.0-0.1.pre"&gt;Toggle commit message&lt;/tool-tip&gt;
+&lt;/div&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="d-flex inline float-right"&gt;
+&lt;details class="dropdown dropdown-signed-commit details-reset details-overlay js-dropdown-details d-inline-block ml-1"&gt;
+&lt;summary class="signed-commit-badge signed-commit-badge-medium verified" title="Commit signature"&gt;
+          Verified
+      &lt;/summary&gt;
+&lt;div class="anim-scale-in" style="position: relative; z-index: 200;"&gt;
+&lt;div class="dropdown-menu dropdown-menu-sw py-0 color-fg-default text-left"&gt;
+&lt;div class="p-3 signed-commit-header d-flex"&gt;
+&lt;div class="pr-1"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-verified mr-2" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="flex-1"&gt;
+                  This commit was created on GitHub.com and signed with GitHub’s &lt;strong class="signed-commit-verified-label"&gt;verified signature&lt;/strong&gt;.
+            &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="signed-commit-footer p-3 rounded-bottom-2"&gt;
+&lt;span class="d-block"&gt;GPG key ID: &lt;span class="color-fg-muted"&gt;4AEE18F83AFDEB23&lt;/span&gt;&lt;/span&gt;
+&lt;div class="my-1"&gt;
+&lt;/div&gt;
+&lt;a href="https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits"&gt;Learn about vigilant mode&lt;/a&gt;.
+          &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="commit-desc" data-test-selector="commit-message-expander"&gt;
+&lt;pre class="text-small color-fg-muted"&gt;[flutter_releases] Flutter beta 3.6.0-0.0.pre Framework Cherrypicks (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/115503/hovercard" data-id="1452420970" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/115503" href="https://github.com/flutter/flutter/pull/115503"&gt;#…&lt;/a&gt;
+      &lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/115503/hovercard" data-id="1452420970" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/115503" href="https://github.com/flutter/flutter/pull/115503"&gt;…115503&lt;/a&gt;)
+
+* Create candidate branch version flutter-3.6-candidate.0 for beta
+
+* Update Engine revision to b754eabc98fb5dc75d90b8b5fca440ce8aac4c44 for beta release 3.6.0-0.0.pre&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul class="list-style-none f6"&gt;
+&lt;li class="d-inline-block mt-1 mr-2 color-fg-muted"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-clock" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;relative-time class="no-wrap" datetime="2022-11-17T00:22:50Z"&gt;Nov 17, 2022&lt;/relative-time&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2 text-mono"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/commit/75927305ff855f76a9ef704f9b4a86fa2fce7292"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-git-commit" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        7592730
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-0.1.pre.zip" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        zip
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-0.1.pre.tar.gz" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        tar.gz
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><pubDate>2022-11-17T00:22:50Z</pubDate></item><item><title>3.6.0-3.0.pre</title><link>/flutter/flutter/releases/tag/3.6.0-3.0.pre</link><description>&lt;div class="flex-auto min-width-0"&gt;
+&lt;div class="commit js-details-container Details"&gt;
+&lt;div class="d-flex"&gt;
+&lt;div class="d-flex inline pr-2 pb-1 col-12"&gt;
+&lt;h2 class="f4 d-inline" data-view-component="true"&gt;&lt;a class="Link--primary" data-view-component="true" href="/flutter/flutter/releases/tag/3.6.0-3.0.pre"&gt;3.6.0-3.0.pre&lt;/a&gt;&lt;/h2&gt;
+&lt;span class="hidden-text-expander inline"&gt;
+&lt;div class="Button-withTooltip" data-view-component="true"&gt;
+&lt;button aria-expanded="false" class="Button Button--iconOnly Button--invisible Button--medium js-details-target" data-view-component="true" id="toggle-commit-3.6.0-3.0.pre" type="button"&gt; &lt;svg aria-hidden="true" class="octicon octicon-ellipsis Button-visual" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M0 5.75C0 4.784.784 4 1.75 4h12.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0114.25 12H1.75A1.75 1.75 0 010 10.25v-4.5zM4 7a1 1 0 100 2 1 1 0 000-2zm3 1a1 1 0 112 0 1 1 0 01-2 0zm5-1a1 1 0 100 2 1 1 0 000-2z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/button&gt; &lt;tool-tip class="sr-only position-absolute" data-direction="s" data-type="label" data-view-component="true" for="toggle-commit-3.6.0-3.0.pre"&gt;Toggle commit message&lt;/tool-tip&gt;
+&lt;/div&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="d-flex inline float-right"&gt;
+&lt;details class="dropdown dropdown-signed-commit details-reset details-overlay js-dropdown-details d-inline-block ml-1"&gt;
+&lt;summary class="signed-commit-badge signed-commit-badge-medium verified" title="Commit signature"&gt;
+          Verified
+      &lt;/summary&gt;
+&lt;div class="anim-scale-in" style="position: relative; z-index: 200;"&gt;
+&lt;div class="dropdown-menu dropdown-menu-sw py-0 color-fg-default text-left"&gt;
+&lt;div class="p-3 signed-commit-header d-flex"&gt;
+&lt;div class="pr-1"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-verified mr-2" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="flex-1"&gt;
+                  This commit was created on GitHub.com and signed with GitHub’s &lt;strong class="signed-commit-verified-label"&gt;verified signature&lt;/strong&gt;.
+            &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="signed-commit-footer p-3 rounded-bottom-2"&gt;
+&lt;span class="d-block"&gt;GPG key ID: &lt;span class="color-fg-muted"&gt;4AEE18F83AFDEB23&lt;/span&gt;&lt;/span&gt;
+&lt;div class="my-1"&gt;
+&lt;/div&gt;
+&lt;a href="https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits"&gt;Learn about vigilant mode&lt;/a&gt;.
+          &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="commit-desc" data-test-selector="commit-message-expander"&gt;
+&lt;pre class="text-small color-fg-muted"&gt;Roll Flutter Engine from 03e9a97f8abe to 21a572e4e4d0 (2 revisions) (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/115411/hovercard" data-id="1450870369" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/115411" href="https://github.com/flutter/flutter/pull/115411"&gt;#…&lt;/a&gt;
+      &lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/115411/hovercard" data-id="1450870369" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/115411" href="https://github.com/flutter/flutter/pull/115411"&gt;…115411&lt;/a&gt;)
+
+* 06b2d4439 Roll Fuchsia Linux SDK from agStiOtzmc9Fmw6gc... to T7_W8eoMNuMdG-5R9... (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/engine/pull/37659/hovercard" data-id="1450725159" data-permission-text="Title is private" data-url="https://github.com/flutter/engine/issues/37659" href="https://github.com/flutter/engine/pull/37659"&gt;flutter/engine#37659&lt;/a&gt;)
+
+* 21a572e4e Fix linter error (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/engine/pull/37661/hovercard" data-id="1450729891" data-permission-text="Title is private" data-url="https://github.com/flutter/engine/issues/37661" href="https://github.com/flutter/engine/pull/37661"&gt;flutter/engine#37661&lt;/a&gt;)&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul class="list-style-none f6"&gt;
+&lt;li class="d-inline-block mt-1 mr-2 color-fg-muted"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-clock" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;relative-time class="no-wrap" datetime="2022-11-16T05:50:28Z"&gt;Nov 16, 2022&lt;/relative-time&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2 text-mono"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/commit/58728c6a92eaad66dbfefd573ba20649845ba678"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-git-commit" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        58728c6
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-3.0.pre.zip" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        zip
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-3.0.pre.tar.gz" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        tar.gz
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><pubDate>2022-11-16T05:50:28Z</pubDate></item><item><title>3.6.0-2.0.pre</title><link>/flutter/flutter/releases/tag/3.6.0-2.0.pre</link><description>&lt;div class="flex-auto min-width-0"&gt;
+&lt;div class="commit js-details-container Details"&gt;
+&lt;div class="d-flex"&gt;
+&lt;div class="d-flex inline pr-2 pb-1 col-12"&gt;
+&lt;h2 class="f4 d-inline" data-view-component="true"&gt;&lt;a class="Link--primary" data-view-component="true" href="/flutter/flutter/releases/tag/3.6.0-2.0.pre"&gt;3.6.0-2.0.pre&lt;/a&gt;&lt;/h2&gt;
+&lt;span class="hidden-text-expander inline"&gt;
+&lt;div class="Button-withTooltip" data-view-component="true"&gt;
+&lt;button aria-expanded="false" class="Button Button--iconOnly Button--invisible Button--medium js-details-target" data-view-component="true" id="toggle-commit-3.6.0-2.0.pre" type="button"&gt; &lt;svg aria-hidden="true" class="octicon octicon-ellipsis Button-visual" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M0 5.75C0 4.784.784 4 1.75 4h12.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0114.25 12H1.75A1.75 1.75 0 010 10.25v-4.5zM4 7a1 1 0 100 2 1 1 0 000-2zm3 1a1 1 0 112 0 1 1 0 01-2 0zm5-1a1 1 0 100 2 1 1 0 000-2z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/button&gt; &lt;tool-tip class="sr-only position-absolute" data-direction="s" data-type="label" data-view-component="true" for="toggle-commit-3.6.0-2.0.pre"&gt;Toggle commit message&lt;/tool-tip&gt;
+&lt;/div&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="d-flex inline float-right"&gt;
+&lt;details class="dropdown dropdown-signed-commit details-reset details-overlay js-dropdown-details d-inline-block ml-1"&gt;
+&lt;summary class="signed-commit-badge signed-commit-badge-medium verified" title="Commit signature"&gt;
+          Verified
+      &lt;/summary&gt;
+&lt;div class="anim-scale-in" style="position: relative; z-index: 200;"&gt;
+&lt;div class="dropdown-menu dropdown-menu-sw py-0 color-fg-default text-left"&gt;
+&lt;div class="p-3 signed-commit-header d-flex"&gt;
+&lt;div class="pr-1"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-verified mr-2" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="flex-1"&gt;
+                  This commit was created on GitHub.com and signed with GitHub’s &lt;strong class="signed-commit-verified-label"&gt;verified signature&lt;/strong&gt;.
+            &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="signed-commit-footer p-3 rounded-bottom-2"&gt;
+&lt;span class="d-block"&gt;GPG key ID: &lt;span class="color-fg-muted"&gt;4AEE18F83AFDEB23&lt;/span&gt;&lt;/span&gt;
+&lt;div class="my-1"&gt;
+&lt;/div&gt;
+&lt;a href="https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits"&gt;Learn about vigilant mode&lt;/a&gt;.
+          &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="commit-desc" data-test-selector="commit-message-expander"&gt;
+&lt;pre class="text-small color-fg-muted"&gt;b63e6cf55 [Impeller] dont include sampler offset in float offset (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/engine/pull/37573/hovercard" data-id="1447068343" data-permission-text="Title is private" data-url="https://github.com/flutter/engine/issues/37573" href="https://github.com/flutter/engine/pull/37573"&gt;flu…&lt;/a&gt;
+      &lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/engine/pull/37573/hovercard" data-id="1447068343" data-permission-text="Title is private" data-url="https://github.com/flutter/engine/issues/37573" href="https://github.com/flutter/engine/pull/37573"&gt;…tter/engine#37573&lt;/a&gt;) (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/115248/hovercard" data-id="1447106424" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/115248" href="https://github.com/flutter/flutter/pull/115248"&gt;#115248&lt;/a&gt;)&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul class="list-style-none f6"&gt;
+&lt;li class="d-inline-block mt-1 mr-2 color-fg-muted"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-clock" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;relative-time class="no-wrap" datetime="2022-11-13T22:53:26Z"&gt;Nov 13, 2022&lt;/relative-time&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2 text-mono"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/commit/fa94a3c10e7e895e0a566ca4da0eafc84b073f13"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-git-commit" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        fa94a3c
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-2.0.pre.zip" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        zip
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-2.0.pre.tar.gz" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        tar.gz
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><pubDate>2022-11-13T22:53:26Z</pubDate></item><item><title>3.6.0-1.0.pre</title><link>/flutter/flutter/releases/tag/3.6.0-1.0.pre</link><description>&lt;div class="flex-auto min-width-0"&gt;
+&lt;div class="commit js-details-container Details"&gt;
+&lt;div class="d-flex"&gt;
+&lt;div class="d-flex inline pr-2 pb-1 col-12"&gt;
+&lt;h2 class="f4 d-inline" data-view-component="true"&gt;&lt;a class="Link--primary" data-view-component="true" href="/flutter/flutter/releases/tag/3.6.0-1.0.pre"&gt;3.6.0-1.0.pre&lt;/a&gt;&lt;/h2&gt;
+&lt;span class="hidden-text-expander inline"&gt;
+&lt;div class="Button-withTooltip" data-view-component="true"&gt;
+&lt;button aria-expanded="false" class="Button Button--iconOnly Button--invisible Button--medium js-details-target" data-view-component="true" id="toggle-commit-3.6.0-1.0.pre" type="button"&gt; &lt;svg aria-hidden="true" class="octicon octicon-ellipsis Button-visual" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M0 5.75C0 4.784.784 4 1.75 4h12.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0114.25 12H1.75A1.75 1.75 0 010 10.25v-4.5zM4 7a1 1 0 100 2 1 1 0 000-2zm3 1a1 1 0 112 0 1 1 0 01-2 0zm5-1a1 1 0 100 2 1 1 0 000-2z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/button&gt; &lt;tool-tip class="sr-only position-absolute" data-direction="s" data-type="label" data-view-component="true" for="toggle-commit-3.6.0-1.0.pre"&gt;Toggle commit message&lt;/tool-tip&gt;
+&lt;/div&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="d-flex inline float-right"&gt;
+&lt;details class="dropdown dropdown-signed-commit details-reset details-overlay js-dropdown-details d-inline-block ml-1"&gt;
+&lt;summary class="signed-commit-badge signed-commit-badge-medium verified" title="Commit signature"&gt;
+          Verified
+      &lt;/summary&gt;
+&lt;div class="anim-scale-in" style="position: relative; z-index: 200;"&gt;
+&lt;div class="dropdown-menu dropdown-menu-sw py-0 color-fg-default text-left"&gt;
+&lt;div class="p-3 signed-commit-header d-flex"&gt;
+&lt;div class="pr-1"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-verified mr-2" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="flex-1"&gt;
+                  This commit was created on GitHub.com and signed with GitHub’s &lt;strong class="signed-commit-verified-label"&gt;verified signature&lt;/strong&gt;.
+            &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="signed-commit-footer p-3 rounded-bottom-2"&gt;
+&lt;span class="d-block"&gt;GPG key ID: &lt;span class="color-fg-muted"&gt;4AEE18F83AFDEB23&lt;/span&gt;&lt;/span&gt;
+&lt;div class="my-1"&gt;
+&lt;/div&gt;
+&lt;a href="https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits"&gt;Learn about vigilant mode&lt;/a&gt;.
+          &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="commit-desc" data-test-selector="commit-message-expander"&gt;
+&lt;pre class="text-small color-fg-muted"&gt;e63c9443b [Impeller] Include the new primitive type in the pipeline h…
+      …ash (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/engine/pull/37546/hovercard" data-id="1446256618" data-permission-text="Title is private" data-url="https://github.com/flutter/engine/issues/37546" href="https://github.com/flutter/engine/pull/37546"&gt;flutter/engine#37546&lt;/a&gt;) (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/115201/hovercard" data-id="1446340567" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/115201" href="https://github.com/flutter/flutter/pull/115201"&gt;#115201&lt;/a&gt;)&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul class="list-style-none f6"&gt;
+&lt;li class="d-inline-block mt-1 mr-2 color-fg-muted"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-clock" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;relative-time class="no-wrap" datetime="2022-11-12T09:39:32Z"&gt;Nov 12, 2022&lt;/relative-time&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2 text-mono"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/commit/61e927d22fe6d82c94c368d62aa81f733bd9218d"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-git-commit" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        61e927d
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-1.0.pre.zip" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        zip
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-1.0.pre.tar.gz" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        tar.gz
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><pubDate>2022-11-12T09:39:32Z</pubDate></item><item><title>3.6.0-0.0.pre</title><link>/flutter/flutter/releases/tag/3.6.0-0.0.pre</link><description>&lt;div class="flex-auto min-width-0"&gt;
+&lt;div class="commit js-details-container Details"&gt;
+&lt;div class="d-flex"&gt;
+&lt;div class="d-flex inline pr-2 pb-1 col-12"&gt;
+&lt;h2 class="f4 d-inline" data-view-component="true"&gt;&lt;a class="Link--primary" data-view-component="true" href="/flutter/flutter/releases/tag/3.6.0-0.0.pre"&gt;3.6.0-0.0.pre&lt;/a&gt;&lt;/h2&gt;
+&lt;span class="hidden-text-expander inline"&gt;
+&lt;div class="Button-withTooltip" data-view-component="true"&gt;
+&lt;button aria-expanded="false" class="Button Button--iconOnly Button--invisible Button--medium js-details-target" data-view-component="true" id="toggle-commit-3.6.0-0.0.pre" type="button"&gt; &lt;svg aria-hidden="true" class="octicon octicon-ellipsis Button-visual" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M0 5.75C0 4.784.784 4 1.75 4h12.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0114.25 12H1.75A1.75 1.75 0 010 10.25v-4.5zM4 7a1 1 0 100 2 1 1 0 000-2zm3 1a1 1 0 112 0 1 1 0 01-2 0zm5-1a1 1 0 100 2 1 1 0 000-2z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/button&gt; &lt;tool-tip class="sr-only position-absolute" data-direction="s" data-type="label" data-view-component="true" for="toggle-commit-3.6.0-0.0.pre"&gt;Toggle commit message&lt;/tool-tip&gt;
+&lt;/div&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="d-flex inline float-right"&gt;
+&lt;details class="dropdown dropdown-signed-commit details-reset details-overlay js-dropdown-details d-inline-block ml-1"&gt;
+&lt;summary class="signed-commit-badge signed-commit-badge-medium verified" title="Commit signature"&gt;
+          Verified
+      &lt;/summary&gt;
+&lt;div class="anim-scale-in" style="position: relative; z-index: 200;"&gt;
+&lt;div class="dropdown-menu dropdown-menu-sw py-0 color-fg-default text-left"&gt;
+&lt;div class="p-3 signed-commit-header d-flex"&gt;
+&lt;div class="pr-1"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-verified mr-2" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="flex-1"&gt;
+                  This commit was created on GitHub.com and signed with GitHub’s &lt;strong class="signed-commit-verified-label"&gt;verified signature&lt;/strong&gt;.
+            &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="signed-commit-footer p-3 rounded-bottom-2"&gt;
+&lt;span class="d-block"&gt;GPG key ID: &lt;span class="color-fg-muted"&gt;4AEE18F83AFDEB23&lt;/span&gt;&lt;/span&gt;
+&lt;div class="my-1"&gt;
+&lt;/div&gt;
+&lt;a href="https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits"&gt;Learn about vigilant mode&lt;/a&gt;.
+          &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="commit-desc" data-test-selector="commit-message-expander"&gt;
+&lt;pre class="text-small color-fg-muted"&gt;Update `CircleAvatar` to support Material 3 (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/114812/hovercard" data-id="1438486176" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/114812" href="https://github.com/flutter/flutter/pull/114812"&gt;#114812&lt;/a&gt;)
+      &lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul class="list-style-none f6"&gt;
+&lt;li class="d-inline-block mt-1 mr-2 color-fg-muted"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-clock" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;relative-time class="no-wrap" datetime="2022-11-09T11:50:41Z"&gt;Nov 9, 2022&lt;/relative-time&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2 text-mono"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/commit/d3dcd7d532b61f43118ab8031bf732aea4a7a9f5"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-git-commit" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        d3dcd7d
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-0.0.pre.zip" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        zip
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.6.0-0.0.pre.tar.gz" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        tar.gz
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><pubDate>2022-11-09T11:50:41Z</pubDate></item><item><title>3.3.8</title><link>/flutter/flutter/releases/tag/3.3.8</link><description>&lt;div class="flex-auto min-width-0"&gt;
+&lt;div class="commit js-details-container Details"&gt;
+&lt;div class="d-flex"&gt;
+&lt;div class="d-flex inline pr-2 pb-1 col-12"&gt;
+&lt;h2 class="f4 d-inline" data-view-component="true"&gt;&lt;a class="Link--primary" data-view-component="true" href="/flutter/flutter/releases/tag/3.3.8"&gt;3.3.8&lt;/a&gt;&lt;/h2&gt;
+&lt;span class="hidden-text-expander inline"&gt;
+&lt;div class="Button-withTooltip" data-view-component="true"&gt;
+&lt;button aria-expanded="false" class="Button Button--iconOnly Button--invisible Button--medium js-details-target" data-view-component="true" id="toggle-commit-3.3.8" type="button"&gt; &lt;svg aria-hidden="true" class="octicon octicon-ellipsis Button-visual" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M0 5.75C0 4.784.784 4 1.75 4h12.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0114.25 12H1.75A1.75 1.75 0 010 10.25v-4.5zM4 7a1 1 0 100 2 1 1 0 000-2zm3 1a1 1 0 112 0 1 1 0 01-2 0zm5-1a1 1 0 100 2 1 1 0 000-2z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/button&gt; &lt;tool-tip class="sr-only position-absolute" data-direction="s" data-type="label" data-view-component="true" for="toggle-commit-3.3.8"&gt;Toggle commit message&lt;/tool-tip&gt;
+&lt;/div&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="d-flex inline float-right"&gt;
+&lt;details class="dropdown dropdown-signed-commit details-reset details-overlay js-dropdown-details d-inline-block ml-1"&gt;
+&lt;summary class="signed-commit-badge signed-commit-badge-medium verified" title="Commit signature"&gt;
+          Verified
+      &lt;/summary&gt;
+&lt;div class="anim-scale-in" style="position: relative; z-index: 200;"&gt;
+&lt;div class="dropdown-menu dropdown-menu-sw py-0 color-fg-default text-left"&gt;
+&lt;div class="p-3 signed-commit-header d-flex"&gt;
+&lt;div class="pr-1"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-verified mr-2" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="flex-1"&gt;
+                  This commit was created on GitHub.com and signed with GitHub’s &lt;strong class="signed-commit-verified-label"&gt;verified signature&lt;/strong&gt;.
+            &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="signed-commit-footer p-3 rounded-bottom-2"&gt;
+&lt;span class="d-block"&gt;GPG key ID: &lt;span class="color-fg-muted"&gt;4AEE18F83AFDEB23&lt;/span&gt;&lt;/span&gt;
+&lt;div class="my-1"&gt;
+&lt;/div&gt;
+&lt;a href="https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits"&gt;Learn about vigilant mode&lt;/a&gt;.
+          &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="commit-desc" data-test-selector="commit-message-expander"&gt;
+&lt;pre class="text-small color-fg-muted"&gt;[CP] Fix a type casting error in text_input.dart (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/109635/hovercard" data-id="1340919455" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/109635" href="https://github.com/flutter/flutter/pull/109635"&gt;#109635&lt;/a&gt;) (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/114806/hovercard" data-id="1438244022" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/114806" href="https://github.com/flutter/flutter/pull/114806"&gt;#114806&lt;/a&gt;)
+      (cherry picked from commit &lt;a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/flutter/flutter/commit/8caa14e6291667a972936ebc210380995e82f5df/hovercard" href="https://github.com/flutter/flutter/commit/8caa14e6291667a972936ebc210380995e82f5df"&gt;&lt;tt&gt;8caa14e&lt;/tt&gt;&lt;/a&gt;)
+
+Co-authored-by: LongCatIsLooong &amp;lt;31859944+LongCatIsLooong@users.noreply.github.com&amp;gt;
+Co-authored-by: Casey Hillers &amp;lt;chillers@google.com&amp;gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul class="list-style-none f6"&gt;
+&lt;li class="d-inline-block mt-1 mr-2 color-fg-muted"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-clock" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;relative-time class="no-wrap" datetime="2022-11-09T04:09:26Z"&gt;Nov 9, 2022&lt;/relative-time&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2 text-mono"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/commit/52b3dc25f6471c27b2144594abb11c741cb88f57"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-git-commit" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        52b3dc2
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.3.8.zip" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        zip
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.3.8.tar.gz" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        tar.gz
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><pubDate>2022-11-09T04:09:26Z</pubDate></item><item><title>3.3.7</title><link>/flutter/flutter/releases/tag/3.3.7</link><description>&lt;div class="flex-auto min-width-0"&gt;
+&lt;div class="commit js-details-container Details"&gt;
+&lt;div class="d-flex"&gt;
+&lt;div class="d-flex inline pr-2 pb-1 col-12"&gt;
+&lt;h2 class="f4 d-inline" data-view-component="true"&gt;&lt;a class="Link--primary" data-view-component="true" href="/flutter/flutter/releases/tag/3.3.7"&gt;3.3.7&lt;/a&gt;&lt;/h2&gt;
+&lt;span class="hidden-text-expander inline"&gt;
+&lt;div class="Button-withTooltip" data-view-component="true"&gt;
+&lt;button aria-expanded="false" class="Button Button--iconOnly Button--invisible Button--medium js-details-target" data-view-component="true" id="toggle-commit-3.3.7" type="button"&gt; &lt;svg aria-hidden="true" class="octicon octicon-ellipsis Button-visual" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M0 5.75C0 4.784.784 4 1.75 4h12.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0114.25 12H1.75A1.75 1.75 0 010 10.25v-4.5zM4 7a1 1 0 100 2 1 1 0 000-2zm3 1a1 1 0 112 0 1 1 0 01-2 0zm5-1a1 1 0 100 2 1 1 0 000-2z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/button&gt; &lt;tool-tip class="sr-only position-absolute" data-direction="s" data-type="label" data-view-component="true" for="toggle-commit-3.3.7"&gt;Toggle commit message&lt;/tool-tip&gt;
+&lt;/div&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="d-flex inline float-right"&gt;
+&lt;details class="dropdown dropdown-signed-commit details-reset details-overlay js-dropdown-details d-inline-block ml-1"&gt;
+&lt;summary class="signed-commit-badge signed-commit-badge-medium verified" title="Commit signature"&gt;
+          Verified
+      &lt;/summary&gt;
+&lt;div class="anim-scale-in" style="position: relative; z-index: 200;"&gt;
+&lt;div class="dropdown-menu dropdown-menu-sw py-0 color-fg-default text-left"&gt;
+&lt;div class="p-3 signed-commit-header d-flex"&gt;
+&lt;div class="pr-1"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-verified mr-2" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="flex-1"&gt;
+                  This commit was created on GitHub.com and signed with GitHub’s &lt;strong class="signed-commit-verified-label"&gt;verified signature&lt;/strong&gt;.
+            &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="signed-commit-footer p-3 rounded-bottom-2"&gt;
+&lt;span class="d-block"&gt;GPG key ID: &lt;span class="color-fg-muted"&gt;4AEE18F83AFDEB23&lt;/span&gt;&lt;/span&gt;
+&lt;div class="my-1"&gt;
+&lt;/div&gt;
+&lt;a href="https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits"&gt;Learn about vigilant mode&lt;/a&gt;.
+          &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="commit-desc" data-test-selector="commit-message-expander"&gt;
+&lt;pre class="text-small color-fg-muted"&gt;Update Engine revision to 857bd6b74c5eb56151bfafe91e7fa6a82b6fee25 fo…
+      …r stable release 3.3.7 (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/114456/hovercard" data-id="1432192086" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/114456" href="https://github.com/flutter/flutter/pull/114456"&gt;#114456&lt;/a&gt;)&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul class="list-style-none f6"&gt;
+&lt;li class="d-inline-block mt-1 mr-2 color-fg-muted"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-clock" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;relative-time class="no-wrap" datetime="2022-11-01T23:59:00Z"&gt;Nov 1, 2022&lt;/relative-time&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2 text-mono"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/commit/e99c9c7cd9f6c0b2f8ae6e3ebfd585239f5568f4"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-git-commit" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        e99c9c7
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.3.7.zip" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        zip
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.3.7.tar.gz" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        tar.gz
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><pubDate>2022-11-01T23:59:00Z</pubDate></item><item><title>3.5.0-11.0.pre</title><link>/flutter/flutter/releases/tag/3.5.0-11.0.pre</link><description>&lt;div class="flex-auto min-width-0"&gt;
+&lt;div class="commit js-details-container Details"&gt;
+&lt;div class="d-flex"&gt;
+&lt;div class="d-flex inline pr-2 pb-1 col-12"&gt;
+&lt;h2 class="f4 d-inline" data-view-component="true"&gt;&lt;a class="Link--primary" data-view-component="true" href="/flutter/flutter/releases/tag/3.5.0-11.0.pre"&gt;3.5.0-11.0.pre&lt;/a&gt;&lt;/h2&gt;
+&lt;span class="hidden-text-expander inline"&gt;
+&lt;div class="Button-withTooltip" data-view-component="true"&gt;
+&lt;button aria-expanded="false" class="Button Button--iconOnly Button--invisible Button--medium js-details-target" data-view-component="true" id="toggle-commit-3.5.0-11.0.pre" type="button"&gt; &lt;svg aria-hidden="true" class="octicon octicon-ellipsis Button-visual" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M0 5.75C0 4.784.784 4 1.75 4h12.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0114.25 12H1.75A1.75 1.75 0 010 10.25v-4.5zM4 7a1 1 0 100 2 1 1 0 000-2zm3 1a1 1 0 112 0 1 1 0 01-2 0zm5-1a1 1 0 100 2 1 1 0 000-2z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/button&gt; &lt;tool-tip class="sr-only position-absolute" data-direction="s" data-type="label" data-view-component="true" for="toggle-commit-3.5.0-11.0.pre"&gt;Toggle commit message&lt;/tool-tip&gt;
+&lt;/div&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="d-flex inline float-right"&gt;
+&lt;details class="dropdown dropdown-signed-commit details-reset details-overlay js-dropdown-details d-inline-block ml-1"&gt;
+&lt;summary class="signed-commit-badge signed-commit-badge-medium verified" title="Commit signature"&gt;
+          Verified
+      &lt;/summary&gt;
+&lt;div class="anim-scale-in" style="position: relative; z-index: 200;"&gt;
+&lt;div class="dropdown-menu dropdown-menu-sw py-0 color-fg-default text-left"&gt;
+&lt;div class="p-3 signed-commit-header d-flex"&gt;
+&lt;div class="pr-1"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-verified mr-2" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class="flex-1"&gt;
+                  This commit was created on GitHub.com and signed with GitHub’s &lt;strong class="signed-commit-verified-label"&gt;verified signature&lt;/strong&gt;.
+            &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="signed-commit-footer p-3 rounded-bottom-2"&gt;
+&lt;span class="d-block"&gt;GPG key ID: &lt;span class="color-fg-muted"&gt;4AEE18F83AFDEB23&lt;/span&gt;&lt;/span&gt;
+&lt;div class="my-1"&gt;
+&lt;/div&gt;
+&lt;a href="https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits"&gt;Learn about vigilant mode&lt;/a&gt;.
+          &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="commit-desc" data-test-selector="commit-message-expander"&gt;
+&lt;pre class="text-small color-fg-muted"&gt;Roll Flutter Engine from d90e5b7372a3 to b5c52563bbb6 (7 revisions) (&lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/114198/hovercard" data-id="1426394352" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/114198" href="https://github.com/flutter/flutter/pull/114198"&gt;#…&lt;/a&gt;
+      &lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-hovercard-type="pull_request" data-hovercard-url="/flutter/flutter/pull/114198/hovercard" data-id="1426394352" data-permission-text="Title is private" data-url="https://github.com/flutter/flutter/issues/114198" href="https://github.com/flutter/flutter/pull/114198"&gt;…114198&lt;/a&gt;)&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul class="list-style-none f6"&gt;
+&lt;li class="d-inline-block mt-1 mr-2 color-fg-muted"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-clock" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;relative-time class="no-wrap" datetime="2022-10-28T01:37:32Z"&gt;Oct 28, 2022&lt;/relative-time&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2 text-mono"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/commit/9b59a4e1f03cd0f4f4d452a59bb992f29e689194"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-git-commit" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        9b59a4e
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.5.0-11.0.pre.zip" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        zip
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="d-inline-block mt-1 mr-2"&gt;
+&lt;a class="Link--muted" href="/flutter/flutter/archive/refs/tags/3.5.0-11.0.pre.tar.gz" rel="nofollow"&gt;
+&lt;svg aria-hidden="true" class="octicon octicon-file-zip" data-view-component="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"&gt;
+&lt;path d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z" fill-rule="evenodd"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+        tar.gz
+      &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><pubDate>2022-10-28T01:37:32Z</pubDate></item></channel></rss>
