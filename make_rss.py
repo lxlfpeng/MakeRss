@@ -182,8 +182,8 @@ if __name__ == '__main__':
     GithubReleasesRss('https://github.com/torvalds/linux','Linux').make_tag_rss()
     GithubReleasesRss('https://github.com/flutter/flutter','Flutter').make_tag_rss()
     GithubReleasesRss('https://github.com/JetBrains/compose-jb','ComposeJb').make_releases_rss()
-    GithubReleasesRss('https://github.com/microsoft/vscode/releases','Vscode').make_releases_rss()
-    GithubReleasesRss('https://github.com/denoland/deno/releases','Deno').make_releases_rss()
+    GithubReleasesRss('https://github.com/microsoft/vscode','Vscode').make_releases_rss()
+    GithubReleasesRss('https://github.com/denoland/deno','Deno').make_releases_rss()
     GithubReleasesRss('https://github.com/spring-projects/spring-boot','SpringBoot').make_releases_rss()
 
     androidRss=AndroidReleasesRss()
