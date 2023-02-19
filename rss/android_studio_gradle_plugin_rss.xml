@@ -1,64 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Android Studio Gradle Plugin</title><link>https://developer.android.com/studio/releases/gradle-plugin</link><description>Android Studio 构建系统以 Gradle 为基础，并且 Android Gradle 插件添加了几项专用于构建 Android 应用的功能。虽然 Android 插件通常会与 Android Studio 的更新步调保持一致，但插件（以及 Gradle 系统的其余部分）可独立于 Android Studio 运行并单独更新。</description><lastBuildDate>2023-02-17 03:52:52</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>7.3.0（2022 年 9 月）</title><link>https://developer.android.com/studio/releases/gradle-plugin?hl=zh-cn</link><description>
-&lt;p&gt;Android Gradle 插件 7.3.0 是一个主要版本，包含各种新功能和改进。&lt;/p&gt;
-&lt;h3 data-text="兼容性" id="compatibility-7-3-0"&gt;兼容性&lt;/h3&gt;
+<rss version="2.0"><channel><title>Android Studio Gradle Plugin</title><link>https://developer.android.com/studio/releases/gradle-plugin</link><description>Android Studio 构建系统以 Gradle 为基础，并且 Android Gradle 插件添加了几项专用于构建 Android 应用的功能。虽然 Android 插件通常会与 Android Studio 的更新步调保持一致，但插件（以及 Gradle 系统的其余部分）可独立于 Android Studio 运行并单独更新。</description><lastBuildDate>2023-02-19 03:52:54</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>7.4.0（2022 年 12 月）</title><link>https://developer.android.com/studio/releases/gradle-plugin?hl=zh-cn</link><description>
+&lt;p&gt;Android Gradle 插件 7.4.0 是一个主要版本，包含各种新功能和改进。&lt;/p&gt;
+&lt;h3 data-text="兼容性" id="compatibility-7-4-0"&gt;兼容性&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th style="text-align: right"&gt;&lt;/th&gt;
-&lt;th style="text-align: center"&gt;最低版本&lt;/th&gt;
-&lt;th style="text-align: center"&gt;默认版本&lt;/th&gt;
-&lt;th style="text-align: left"&gt;备注&lt;/th&gt;
+&lt;th align="right"&gt;&lt;/th&gt;
+&lt;th align="center"&gt;最低版本&lt;/th&gt;
+&lt;th align="center"&gt;默认版本&lt;/th&gt;
+&lt;th align="center"&gt;备注&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td style="text-align: right"&gt;Gradle&lt;/td&gt;
-&lt;td style="text-align: center"&gt;7.4&lt;/td&gt;
-&lt;td style="text-align: center"&gt;7.4&lt;/td&gt;
-&lt;td style="text-align: left"&gt;如需了解详情，请参阅&lt;a href="https://developer.android.com/studio/releases/gradle-plugin?buildsystem=ndk-build&amp;amp;hl=zh-cn#updating-gradle"&gt;更新 Gradle&lt;/a&gt;。&lt;/td&gt;
+&lt;td align="right"&gt;Gradle&lt;/td&gt;
+&lt;td align="center"&gt;7.5&lt;/td&gt;
+&lt;td align="center"&gt;7.5&lt;/td&gt;
+&lt;td align="left"&gt;如需了解详情，请参阅&lt;a href="https://developer.android.com/studio/releases/gradle-plugin?buildsystem=ndk-build&amp;amp;hl=zh-cn#updating-gradle"&gt;更新 Gradle&lt;/a&gt;。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style="text-align: right"&gt;SDK Build Tools&lt;/td&gt;
-&lt;td style="text-align: center"&gt;30.0.3&lt;/td&gt;
-&lt;td style="text-align: center"&gt;30.0.3&lt;/td&gt;
-&lt;td style="text-align: left"&gt;&lt;a href="https://developer.android.com/studio/intro/update?hl=zh-cn#sdk-manager"&gt;安装&lt;/a&gt;或&lt;a href="https://developer.android.com/studio/releases/build-tools?hl=zh-cn"&gt;配置&lt;/a&gt; SDK Build Tools。&lt;/td&gt;
+&lt;td align="right"&gt;SDK Build Tools&lt;/td&gt;
+&lt;td align="center"&gt;30.0.3&lt;/td&gt;
+&lt;td align="center"&gt;30.0.3&lt;/td&gt;
+&lt;td align="left"&gt;&lt;a href="https://developer.android.com/studio/intro/update?hl=zh-cn#sdk-manager"&gt;安装&lt;/a&gt;或&lt;a href="https://developer.android.com/studio/releases/build-tools?hl=zh-cn"&gt;配置&lt;/a&gt; SDK Build Tools。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style="text-align: right"&gt;NDK&lt;/td&gt;
-&lt;td style="text-align: center"&gt;不适用&lt;/td&gt;
-&lt;td style="text-align: center"&gt;23.1.7779620&lt;/td&gt;
-&lt;td style="text-align: left"&gt;&lt;a href="https://developer.android.com/studio/projects/install-ndk?hl=zh-cn#specific-version"&gt;安装&lt;/a&gt;或&lt;a href="https://developer.android.com/studio/projects/install-ndk?hl=zh-cn#apply-specific-version"&gt;配置&lt;/a&gt;其他版本的 NDK。&lt;/td&gt;
+&lt;td align="right"&gt;NDK&lt;/td&gt;
+&lt;td align="center"&gt;不适用&lt;/td&gt;
+&lt;td align="center"&gt;23.1.7779620&lt;/td&gt;
+&lt;td align="left"&gt;&lt;a href="https://developer.android.com/studio/projects/install-ndk?hl=zh-cn#specific-version"&gt;安装&lt;/a&gt;或&lt;a href="https://developer.android.com/studio/projects/install-ndk?hl=zh-cn#apply-specific-version"&gt;配置&lt;/a&gt;其他版本的 NDK。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style="text-align: right"&gt;JDK&lt;/td&gt;
-&lt;td style="text-align: center"&gt;11&lt;/td&gt;
-&lt;td style="text-align: center"&gt;11&lt;/td&gt;
-&lt;td style="text-align: left"&gt;如需了解详情，请参阅&lt;a href="https://developer.android.com/studio/intro/studio-config?hl=zh-cn#jdk"&gt;设置 JDK 版本&lt;/a&gt;。&lt;/td&gt;
+&lt;td align="right"&gt;JDK&lt;/td&gt;
+&lt;td align="center"&gt;11&lt;/td&gt;
+&lt;td align="center"&gt;11&lt;/td&gt;
+&lt;td align="left"&gt;如需了解详情，请参阅&lt;a href="https://developer.android.com/studio/intro/studio-config?hl=zh-cn#jdk"&gt;设置 JDK 版本&lt;/a&gt;。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 data-text="支持自定义 C/C++ 构建系统" id="cxx-build-systems"&gt;支持自定义 C/C++ 构建系统&lt;/h3&gt;
-&lt;p&gt;现在，您可以通过创建一个采用 &lt;a class="external" href="https://ninja-build.org/"&gt;Ninja&lt;/a&gt; build 文件格式写入 build 信息的 Shell 脚本，来创建自定义 C/C++ 构建系统。如需详细了解自定义 C/C++ 构建系统，请参阅&lt;a href="https://developer.android.com/studio/build/cxx-ninja?hl=zh-cn"&gt;使用 Ninja（实验性）集成自定义 C/C++ 构建系统&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="自定义 C/C++ 构建系统的屏幕截图" src="https://developer.android.com/static/studio/images/releases/cxx-ninja.png?hl=zh-cn"/&gt;&lt;/p&gt;
-&lt;h3 data-text="最低 Kotlin 插件版本为 1.5.20" id="min-kotlin-version"&gt;最低 Kotlin 插件版本为 1.5.20&lt;/h3&gt;
-&lt;p&gt;从 Android Gradle 插件 7.3.0-alpha08 开始，AGP 要求使用 Kotlin 插件版本 1.5.20 或更高版本。为了保持兼容性，请务必在 &lt;code dir="ltr" translate="no"&gt;build.gradle&lt;/code&gt; 文件中指定 Kotlin 插件版本 1.5.20 或更高版本：&lt;/p&gt;
-&lt;pre class="prettyprint lang-groovy" dir="ltr" translate="no"&gt;&lt;code dir="ltr" translate="no"&gt;org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.20
+&lt;h3 data-text="补丁版本" id="patch-releases"&gt;补丁版本&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;以下是 Android Gradle 插件 7.4 的补丁版本列表。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h4 data-text="Android Gradle 插件 7.4.1（2023 年 2 月）" id="android-gradle-plugin-7.4.1-february-2023"&gt;Android Gradle 插件 7.4.1（2023 年 2 月）&lt;/h4&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;本次要更新包含以下 bug 修复：&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th colspan="2"&gt;修复的问题&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div&gt;&lt;a href="https://issuetracker.google.com/issues/242831042?hl=zh-cn" rel="noopener noreferrer" target="_blank"&gt;问题 242831042&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;从 &lt;code dir="ltr" translate="no"&gt;destination&lt;/code&gt; 属性迁移到 &lt;code dir="ltr" translate="no"&gt;outputLocation&lt;/code&gt; 属性，以解决废弃警告问题并为 Gradle 9.0 做好准备&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div&gt;&lt;a href="https://issuetracker.google.com/issues/261329823?hl=zh-cn" rel="noopener noreferrer" target="_blank"&gt;问题 261329823&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;AGP 7.4.0-rc01 会破坏 Variant API，并显示“Querying the mapped value of
+          &lt;code dir="ltr" translate="no"&gt;map(provider(java.util.Set))&lt;/code&gt; before task '...' has completed is not supported”&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/p&gt;
+&lt;h3 data-text="AGP 升级助理升级后报告和回滚功能" id="upgrade-assistant-report-rollback"&gt;AGP 升级助理升级后报告和回滚功能&lt;/h3&gt;
+&lt;p&gt;AGP 升级助理现在包含升级后报告。此报告介绍了已完成的步骤以及升级是成功还是失败。它还包含一项操作，如果在升级后构建或测试项目时遇到问题，用来还原由升级助理所做的更改。&lt;/p&gt;
+&lt;h3 data-text="项目导入作业并行运行" id="parallel-project-import"&gt;项目导入作业并行运行&lt;/h3&gt;
+&lt;p&gt;现在，当您使用 Gradle 7.4.2 或更高版本以及 Android Gradle 插件 7.2.0 或更高版本时，Studio IDE 会并行导入项目。具体而言，当 Android Studio 触发 Gradle 同步时，系统将并行创建用于描述 build 中所含项目的信息。这通常能加快同步过程，对于较大的项目，尤为如此。基准测试表明，为一个大型项目（包含 3500 个 Gradle 子项目）构建 Gradle 模型所需的时间缩短了 50%，从 10 分钟缩短为 5 分钟。&lt;/p&gt;
+&lt;h3 data-text="Android Gradle 插件适用于 JVM 11 字节码" id="jvm-11-bytecode"&gt;Android Gradle 插件适用于 JVM 11 字节码&lt;/h3&gt;
+&lt;p&gt;从 Android Gradle 插件 7.4.0-alpha04 开始，AGP 附带 JVM 11 字节码。这意味着，如果您针对 AGP 进行编译或编写自定义 lint 检查，则需要开始以 JVM 11 字节码为目标适用对象。其中一种方法是在模块级 &lt;code dir="ltr" translate="no"&gt;build.gradle&lt;/code&gt; 文件中添加以下代码：&lt;/p&gt;
+&lt;pre class="prettyprint lang-groovy" dir="ltr" translate="no"&gt;&lt;code dir="ltr" translate="no"&gt;sourceCompatibility = "11"
+targetCompatibility = "11"
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 data-text="已启用生成已归档 APK" id="archived-apk-enabled"&gt;已启用生成已归档 APK&lt;/h3&gt;
-&lt;p&gt;从 AGP 7.3 开始，构建的所有 Android App Bundle 都会默认启用&lt;a href="https://android-developers.googleblog.com/2022/03/freeing-up-60-of-storage-for-apps.html"&gt;存储归档&lt;/a&gt;。归档是一项新的 app bundle 功能，今后，如果存储支持此功能，存储空间不足的用户就可以借助此功能有效管理应用空间。&lt;/p&gt;
-&lt;p&gt;如需停止生成已归档 APK，请按如下方式修改应用级 &lt;code dir="ltr" translate="no"&gt;build.gradle&lt;/code&gt; 文件：&lt;/p&gt;
-&lt;pre class="prettyprint lang-groovy" dir="ltr" translate="no"&gt;&lt;code dir="ltr" translate="no"&gt;android {
-  bundle {
-    storeArchive {
-      enable = false
-    }
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 data-text="已废弃清单文件中的 package 属性" id="package-deprecated"&gt;已废弃清单文件中的 package 属性&lt;/h3&gt;
-&lt;p&gt;从 AGP 7.3.0-alpha04 开始，使用 Gradle 构建项目时，如果在清单文件中使用 &lt;code dir="ltr" translate="no"&gt;package&lt;/code&gt; 属性，AGP 会生成警告。如需为应用设置命名空间，请在模块级 &lt;code dir="ltr" translate="no"&gt;build.gradle&lt;/code&gt; 文件中使用 &lt;code dir="ltr" translate="no"&gt;namespace&lt;/code&gt; 属性。如需了解详情，请参阅&lt;a href="https://developer.android.com/studio/build/configure-app-module?hl=zh-cn#set-namespace"&gt;设置命名空间&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;如需获取移至新命名空间 DSL 方面的帮助，请使用 AGP 升级助理 (&lt;strong&gt;Tools &amp;gt; AGP Upgrade Assistant&lt;/strong&gt;)。&lt;/p&gt;
-&lt;h3 data-text="Android 平台支持" id="android-platform-support"&gt;Android 平台支持&lt;/h3&gt;
-&lt;p&gt;从 AGP 7.3.0-beta05 开始，支持的最低 SDK 版本最高可设为 33（可以使用 &lt;code dir="ltr" translate="no"&gt;minSdk = 33&lt;/code&gt; 来设置）。最低 SDK 表示可运行您的应用的最低 Android 版本，在应用级 &lt;code dir="ltr" translate="no"&gt;build.gradle&lt;/code&gt; 文件中进行设置。&lt;/p&gt;
-</description><author>Google</author><pubDate>2022-09-01 00:00:00</pubDate></item></channel></rss>
+</description><author>Google</author><pubDate>2022-12-01 00:00:00</pubDate></item></channel></rss>
