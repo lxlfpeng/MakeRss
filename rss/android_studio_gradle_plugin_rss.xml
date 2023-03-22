@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Android Studio Gradle Plugin</title><link>https://developer.android.com/studio/releases/gradle-plugin</link><description>Android Studio 构建系统以 Gradle 为基础，并且 Android Gradle 插件添加了几项专用于构建 Android 应用的功能。虽然 Android 插件通常会与 Android Studio 的更新步调保持一致，但插件（以及 Gradle 系统的其余部分）可独立于 Android Studio 运行并单独更新。</description><lastBuildDate>2023-03-21 03:52:21</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>7.4.0（2022 年 12 月）</title><link>https://developer.android.com/studio/releases/gradle-plugin?hl=zh-cn</link><description>
+<rss version="2.0"><channel><title>Android Studio Gradle Plugin</title><link>https://developer.android.com/studio/releases/gradle-plugin</link><description>Android Studio 构建系统以 Gradle 为基础，并且 Android Gradle 插件添加了几项专用于构建 Android 应用的功能。虽然 Android 插件通常会与 Android Studio 的更新步调保持一致，但插件（以及 Gradle 系统的其余部分）可独立于 Android Studio 运行并单独更新。</description><lastBuildDate>2023-03-22 03:52:47</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>7.4.0（2022 年 12 月）</title><link>https://developer.android.com/studio/releases/gradle-plugin?hl=zh-cn</link><description>
 &lt;p&gt;Android Gradle 插件 7.4.0 是一个主要版本，包含各种新功能和改进。&lt;/p&gt;
 &lt;h3 data-text="兼容性" id="compatibility-7-4-0"&gt;兼容性&lt;/h3&gt;
 &lt;table&gt;
@@ -40,6 +40,35 @@
 &lt;/table&gt;
 &lt;h3 data-text="补丁版本" id="patch-releases"&gt;补丁版本&lt;/h3&gt;
 &lt;p&gt;&lt;/p&gt;&lt;p&gt;以下是 Android Gradle 插件 7.4 的补丁版本列表。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h4 data-text="Android Gradle 插件 7.4.2（2023 年 2 月）" id="android-gradle-plugin-7.4.2-february-2023"&gt;Android Gradle 插件 7.4.2（2023 年 2 月）&lt;/h4&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;本次要更新包含以下 bug 修复：&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th colspan="2"&gt;修复的问题&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div&gt;&lt;a href="https://issuetracker.google.com/issues/266780231?hl=zh-cn" rel="noopener noreferrer" target="_blank"&gt;问题 266780231&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;DexingFileDependenciesTask.outputKeepRules 是一个目录，但已被标记为 OutputFile&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div&gt;&lt;a href="https://issuetracker.google.com/issues/247906487?hl=zh-cn" rel="noopener noreferrer" target="_blank"&gt;问题 247906487&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;更新到 7.4 Beta 1 时出现 &lt;code dir="ltr" translate="no"&gt;AnnotationProcessorOptions.arguments are queried&lt;/code&gt; 错误&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div&gt;&lt;a href="https://issuetracker.google.com/issues/266967487?hl=zh-cn" rel="noopener noreferrer" target="_blank"&gt;问题 266967487&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;测试变体中的清单占位符导致 processDebugUnitTestManifest 失败&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;h4 data-text="Android Gradle 插件 7.4.1（2023 年 2 月）" id="android-gradle-plugin-7.4.1-february-2023"&gt;Android Gradle 插件 7.4.1（2023 年 2 月）&lt;/h4&gt;&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;p&gt;本次要更新包含以下 bug 修复：&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;table&gt;
