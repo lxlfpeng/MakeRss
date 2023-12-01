@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Android Studio Gradle Plugin</title><link>https://developer.android.com/studio/releases/gradle-plugin</link><description>Android Studio 构建系统以 Gradle 为基础，并且 Android Gradle 插件添加了几项专用于构建 Android 应用的功能。虽然 Android 插件通常会与 Android Studio 的更新步调保持一致，但插件（以及 Gradle 系统的其余部分）可独立于 Android Studio 运行并单独更新。</description><lastBuildDate>2023-11-30 03:52:23</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>7.4.0（2022 年 12 月）</title><link>https://developer.android.com/studio/releases/gradle-plugin?hl=zh-cn</link><description>
+<rss version="2.0"><channel><title>Android Studio Gradle Plugin</title><link>https://developer.android.com/studio/releases/gradle-plugin</link><description>Android Studio 构建系统以 Gradle 为基础，并且 Android Gradle 插件添加了几项专用于构建 Android 应用的功能。虽然 Android 插件通常会与 Android Studio 的更新步调保持一致，但插件（以及 Gradle 系统的其余部分）可独立于 Android Studio 运行并单独更新。</description><lastBuildDate>2023-12-01 03:52:35</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>7.4.0（2022 年 12 月）</title><link>https://developer.android.com/studio/releases/gradle-plugin?hl=zh-cn</link><description>
 &lt;p&gt;Android Gradle 插件 7.4.0 是一个主要版本，包含各种新功能和改进。&lt;/p&gt;
-&lt;h3 data-text="兼容性" id="compatibility-7-4-0"&gt;兼容性&lt;/h3&gt;
+&lt;h3 data-text="兼容性" id="compatibility-7-4-0" tabindex="-1"&gt;兼容性&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -38,9 +38,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 data-text="补丁版本" id="patch-releases"&gt;补丁版本&lt;/h3&gt;
+&lt;h3 data-text="补丁版本" id="patch-releases" tabindex="-1"&gt;补丁版本&lt;/h3&gt;
 &lt;p&gt;&lt;/p&gt;&lt;p&gt;以下是 Android Gradle 插件 7.4 的补丁版本列表。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;h4 data-text="Android Gradle 插件 7.4.2（2023 年 2 月）" id="android-gradle-plugin-7.4.2-february-2023"&gt;Android Gradle 插件 7.4.2（2023 年 2 月）&lt;/h4&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h4 data-text="Android Gradle 插件 7.4.2（2023 年 2 月）" id="android-gradle-plugin-7.4.2-february-2023" tabindex="-1"&gt;Android Gradle 插件 7.4.2（2023 年 2 月）&lt;/h4&gt;&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;p&gt;本次要更新包含以下 bug 修复：&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;table&gt;
 &lt;thead&gt;
@@ -69,7 +69,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;h4 data-text="Android Gradle 插件 7.4.1（2023 年 2 月）" id="android-gradle-plugin-7.4.1-february-2023"&gt;Android Gradle 插件 7.4.1（2023 年 2 月）&lt;/h4&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h4 data-text="Android Gradle 插件 7.4.1（2023 年 2 月）" id="android-gradle-plugin-7.4.1-february-2023" tabindex="-1"&gt;Android Gradle 插件 7.4.1（2023 年 2 月）&lt;/h4&gt;&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;p&gt;本次要更新包含以下 bug 修复：&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;table&gt;
 &lt;thead&gt;
@@ -93,11 +93,11 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;&lt;/p&gt;
-&lt;h3 data-text="AGP 升级助理升级后报告和回滚功能" id="upgrade-assistant-report-rollback"&gt;AGP 升级助理升级后报告和回滚功能&lt;/h3&gt;
+&lt;h3 data-text="AGP 升级助理升级后报告和回滚功能" id="upgrade-assistant-report-rollback" tabindex="-1"&gt;AGP 升级助理升级后报告和回滚功能&lt;/h3&gt;
 &lt;p&gt;AGP 升级助理现在包含升级后报告。此报告介绍了已完成的步骤以及升级是成功还是失败。它还包含一项操作，如果在升级后构建或测试项目时遇到问题，用来还原由升级助理所做的更改。&lt;/p&gt;
-&lt;h3 data-text="项目导入作业并行运行" id="parallel-project-import"&gt;项目导入作业并行运行&lt;/h3&gt;
+&lt;h3 data-text="项目导入作业并行运行" id="parallel-project-import" tabindex="-1"&gt;项目导入作业并行运行&lt;/h3&gt;
 &lt;p&gt;现在，当您使用 Gradle 7.4.2 或更高版本以及 Android Gradle 插件 7.2.0 或更高版本时，Studio IDE 会并行导入项目。具体而言，当 Android Studio 触发 Gradle 同步时，系统将并行创建用于描述 build 中所含项目的信息。这通常能加快同步过程，对于较大的项目，尤为如此。基准测试表明，为一个大型项目（包含 3,500 个 Gradle 子项目）构建 Gradle 模型所需的时间缩短了 50%，从 10 分钟缩短为 5 分钟。&lt;/p&gt;
-&lt;h3 data-text="Android Gradle 插件适用于 JVM 11 字节码" id="jvm-11-bytecode"&gt;Android Gradle 插件适用于 JVM 11 字节码&lt;/h3&gt;
+&lt;h3 data-text="Android Gradle 插件适用于 JVM 11 字节码" id="jvm-11-bytecode" tabindex="-1"&gt;Android Gradle 插件适用于 JVM 11 字节码&lt;/h3&gt;
 &lt;p&gt;从 Android Gradle 插件 7.4.0-alpha04 开始，AGP 附带 JVM 11 字节码。这意味着，如果您针对 AGP 进行编译或编写自定义 lint 检查，则需要开始以 JVM 11 字节码为目标适用对象。其中一种方法是在模块级 &lt;code dir="ltr" translate="no"&gt;build.gradle&lt;/code&gt; 文件中添加以下代码：&lt;/p&gt;
 &lt;pre class="prettyprint lang-groovy" dir="ltr" translate="no"&gt;&lt;code dir="ltr" translate="no"&gt;sourceCompatibility = "11"
 targetCompatibility = "11"
